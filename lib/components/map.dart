@@ -1,5 +1,3 @@
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
 
 class MindMap extends StatefulWidget {
@@ -42,40 +40,52 @@ class _MindMapState extends State<MindMap> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        Container(
-                          margin: EdgeInsets.all(5),
-                          height: 40,
-                          width: 40,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(90),
-                            color: Colors.green,
+                        GestureDetector(
+                          onTap: null,
+                          child: Container(
+                            margin: EdgeInsets.all(5),
+                            height: 40,
+                            width: 40,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(90),
+                              color: Colors.green,
+                            ),
                           ),
                         ),
-                        Container(
-                          margin: EdgeInsets.all(5),
-                          height: 40,
-                          width: 40,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(90),
-                            color: Colors.red,
+                        GestureDetector(
+                          onTap: null,
+                          child: Container(
+                            margin: EdgeInsets.all(5),
+                            height: 40,
+                            width: 40,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(90),
+                              color: Colors.red,
+                            ),
                           ),
                         ),
-                        Container(
-                          margin: EdgeInsets.all(5),
-                          height: 40,
-                          width: 40,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(90),
-                            color: Colors.purple,
+                        GestureDetector(
+                          onTap: null,
+                          child: Container(
+                            margin: EdgeInsets.all(5),
+                            height: 40,
+                            width: 40,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(90),
+                              color: Colors.purple,
+                            ),
                           ),
                         ),
-                        Container(
-                          margin: EdgeInsets.all(5),
-                          height: 40,
-                          width: 40,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(90),
-                            color: Colors.yellow,
+                        GestureDetector(
+                          onTap: null,
+                          child: Container(
+                            margin: EdgeInsets.all(5),
+                            height: 40,
+                            width: 40,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(90),
+                              color: Colors.yellow,
+                            ),
                           ),
                         ),
                       ],
